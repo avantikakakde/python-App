@@ -19,6 +19,8 @@ Make sure you have the following installed:
 - Jenkins (on AWS EC2 or local machine)  
 - GitHub repository  
 - Webhook access between GitHub and Jenkins  
+ 
+![](./images/Screenshot%202025-11-12%20132710.png)
 
 ---
 
@@ -169,7 +171,9 @@ Configure the pipeline as follows:
 | **Branch**       | main                                                       |
 | **Script Path**  | Jenkinsfile                                                |
 
+![](./images/Screenshot%202025-11-12%20124639.png)
 
+![](./images/Screenshot%202025-11-12%20125031.png)
 
 ### 🧠 Step 5: Jenkinsfile
 ```
@@ -246,6 +250,8 @@ Build and deploy the Flask app on the target EC2 instance
 Open your browser and visit:
 
 http://<TARGET-SERVER-PUBLIC-IP>:5000
+
+![](./images/Screenshot%202025-11-12%20125552.png)
 
 ---
 
